@@ -1,26 +1,42 @@
 body {
     background-color: #ffd6ec;
-    color: rgb(0, 0, 0);
+    color: #000000;
     font-family: "Bai Jamjuree", sans-serif;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+
+    height: 100vh;
     margin: 0;
 }
 
 button {
-    background-color: linear-gradient(to bottom, #ff8fc7, #ff5fa2);
-    color: rgb(0, 0, 0);
+    /* gradiente correto */
+    background: linear-gradient(to bottom, #ff8fc7, #ff5fa2);
+
+    /* texto preto */
+    color: black;
+
     font-family: "Bai Jamjuree", sans-serif;
+
     border: none;
     padding: 12px 24px;
     margin: 10px;
+
     border-radius: 20px;
+
     font-size: 20px;
     cursor: pointer;
+
     box-shadow: 0 4px 10px rgba(255, 105, 180, 0.5);
+
     transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .passo {
@@ -28,7 +44,7 @@ button {
 }
 
 .passo.ativo {
-    display:block;
+    display: block;
 }
 
 main {
@@ -38,4 +54,5 @@ main {
 
 img {
     max-width: 90%;
+    border-radius: 15px;
 }
