@@ -11,7 +11,7 @@ body {
 
 button {
     background-color: linear-gradient(to bottom, #ff8fc7, #ff5fa2);
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Bai Jamjuree", sans-serif;
     border: none;
     padding: 12px 24px;
