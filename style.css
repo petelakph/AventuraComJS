@@ -1,5 +1,5 @@
 body {
-    background-color: #1D4221;
+    background-color: #ffd6ec;
     color: white;
     font-family: "Bai Jamjuree", sans-serif;
     display: flex;
@@ -10,9 +10,17 @@ body {
 }
 
 button {
-    background-color: #64A712;
+    background-color: linear-gradient(to bottom, #ff8fc7, #ff5fa2);
     color: white;
     font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.5);
+    transition: 0.3s;
 }
 
 .passo {
